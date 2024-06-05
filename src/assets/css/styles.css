@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url('fondo.jpg');*/
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-login {
+    width: 325px !important;
+    max-width: 325px !important;
+
+  }
+
+  .card-login {
+    padding-right: 60px !important;
+  }
+
+  .col {
+    padding-left: 80px;
+  }
+}
+
+.modal-custom-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  /* Color oscuro con transparencia */
+  z-index: 1050;
+  /* Asegura que el fondo esté detrás del modal */
+}
+
+.modal1 {
+  display: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+  #rowUp {
+    padding-bottom: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .divInit {
+    /*padding-top: 130px!important;*/
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cardImg {
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cardCar {
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-menu {
+    width: 200px !important;
+    max-width: 200px !important;
+  }
+}
+
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.divInit {
+  justify-content: center;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.modal-custom-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Color oscuro con transparencia */
+  z-index: 1050;
+  /* Asegura que el fondo esté detrás del modal */
+}
